@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>PhotoEditor</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="script.js"></script>
+</head>
+<body>
+	<div class="cursoir"></div>
+	<div class="tools">
+		<button class="button save">SAVE</button>
+		<button class="button clear">CLEAR</button>
+		<button class="button replay">REPLAY</button>
+		<a href="#" class="button first-version"><div class="span">v 1.0</div></a>
+	</div>
+	<div class="main">
+		<div class="toolbar">
+			<details>
+				<summary class="tool-name">Tools</summary>
+				<div class="alltools alltools_1">
+					<button class="square-button color"></button>
+					<button class="square-button pen"></button>
+				</div>
+			</details>
+			<details>
+				<summary class="tool-name">Effects</summary>
+				<div class="alltools alltools_2">
+					<button class="button effect_1"></button>
+					<button class="button effect_2"></button>
+					<button class="button effect_3"></button>
+					<button class="button effect_4"></button>
+				</div>
+			</details>
+		</div>
+		<canvas id="canvas"></canvas>
+	</div>
+</body>
+</html>
